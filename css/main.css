@@ -1,0 +1,708 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* index html starts here*/
+
+nav {
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 70px;
+}
+
+nav .logo {
+	display: flex;
+	column-gap: 2px;
+	align-items: center;
+	margin-left: 60px;
+}
+
+nav .logo:hover {
+	cursor: pointer;
+}
+
+nav .logo img {
+	width: 40px;
+	height: 40px;
+	align-items: center;
+}
+
+nav .logo p {
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+nav .menu_list {
+	display: flex;
+}
+
+nav .menu_list ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	column-gap: 25px;
+	margin-right: 40px;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.menu_list ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.menu_list ul li a:hover {
+	color: rgb(49, 213, 49);
+}
+
+.free_spotify {
+	background: rgb(232, 52, 160);
+	background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100%
+			1068px no-repeat,
+		linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+	height: 600px;
+}
+
+.free_spotify .phone {
+	display: flex;
+}
+
+.free_spotify .phone svg {
+	width: 286px;
+	height: 573px;
+	margin: 0 auto;
+	padding: 80px 100px;
+	overflow: hidden;
+}
+
+.free_spotify .phone_img {
+	position: absolute;
+	right: 100px;
+	left: 100px;
+	bottom: -210px;
+	width: 286px;
+	height: 600px;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+}
+
+.free_spotify .phone_img img {
+	width: 267px;
+	height: 460px;
+}
+
+.free_spotify .content {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin-top: 150px;
+}
+
+.free_spotify .content h1 {
+	color: white;
+	font-size: 56px;
+	width: 610px;
+	margin-bottom: 50px;
+}
+
+.free_spotify .content button {
+	background-color: white;
+	color: black;
+	border: none;
+	padding: 18px 30px;
+	border-radius: 50px;
+	font-weight: 600;
+}
+
+.free_spotify .content button:hover {
+	padding: 20px 35px;
+	cursor: pointer;
+}
+
+.why_spotify {
+	margin-bottom: 100px;
+}
+
+.why_spotify h2 {
+	text-align: center;
+	margin-top: 80px;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.why_spotify .circle_imgs {
+	display: flex;
+	column-gap: 30px;
+	margin-top: 60px;
+	justify-content: center;
+}
+
+.why_spotify .circle_img {
+	display: flex;
+	flex-direction: column;
+}
+
+.why_spotify .circle_img img {
+	width: 142px;
+	height: 142px;
+	margin: auto 40px;
+}
+
+.why_spotify .circle_img .text {
+	width: 230px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.why_spotify .circle_img .text p {
+	margin-top: 10px;
+	line-height: 25px;
+}
+
+.free {
+	height: 500px;
+	background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+}
+
+.free h2 {
+	color: white;
+	text-align: center;
+	font-size: 45px;
+}
+
+.free .one {
+	margin-bottom: 10px;
+}
+
+.questions{
+	height: 400px;
+	margin-bottom: 50px;
+}
+
+.questions h2{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 30px;
+	font-weight: 800;
+	margin-bottom: 70px;
+}
+
+.questions .menu_item{
+	background-color: white;
+	height: auto;
+}
+
+.questions .menu_item :hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.questions ul li{
+	display: flex;
+	list-style: none;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 20px 80px;
+	justify-content: space-between;
+}
+
+
+
+.questions hr{
+	margin: 0 60px;
+	height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
+.questions ul li svg{
+	transform: rotate(180deg);
+}
+
+.ready{
+	height: 400px;
+	background: url(https://www.scdn.co/i/free/lets-play.svg) left -10px bottom -160px / 100% 1114px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.ready .ready_content{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap ;
+	justify-content: center;
+}
+
+.ready .ready_content h2{
+	font-size: 80px;
+	color: white;
+}
+
+.ready .ready_content .content_btn{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.ready .ready_content button{
+	background-color: white;
+	color: black;
+	border: none;
+	padding: 18px 30px;
+	border-radius: 50px;
+	font-weight: 600;
+}
+
+.ready .ready_content button:hover{
+	padding: 20px 35px;
+	cursor: pointer;
+}
+
+footer{
+	background-color: black;
+	padding-bottom: 30px;
+}
+
+.footer_top{
+	color: white;
+	display: flex;
+	column-gap: 200px;
+}
+
+.footer_top .logo{
+	display: flex;
+	column-gap: 2px;
+	margin-top: 50px;
+	margin-left: 60px;
+}
+
+.footer_top .logo:hover{
+	cursor: pointer;
+}
+
+.footer_top .logo img{
+	width: 40px;
+	height: 40px;
+	align-items: center;
+}
+
+.footer_top .logo p {
+	margin-top: 8px;
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.footer_top .more_info{
+	display: flex;
+	column-gap: 80px;
+	margin-top: 70px;
+}
+
+.footer_top .more_info ul{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+
+.footer_top .more_info ul .head{
+	font-size: 13px;
+	font-weight: 600;
+	color: #8e8e8e;
+}
+
+.footer_top .more_info ul li{
+	font-size: 14px;
+}
+
+.footer_top .more_info ul li:hover{
+	color: rgb(49, 213, 49);
+	cursor: pointer;
+}
+
+.footer_top .social_media{
+	display: flex;
+	column-gap: 10px;
+	margin-top: 80px;
+}
+
+.footer_top .social_media .instagram{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #222326;
+}
+
+.footer_top .social_media .twitter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #222326;
+}
+
+.footer_top .social_media .facebook{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #222326;
+}
+
+.footer_bottom .location{
+	margin-top: 20px;
+	color: #8e8e8e;
+	display: flex;
+	justify-content: end;
+	margin-right: 30px;
+	column-gap: 5px;
+}
+
+.footer_bottom .location p{
+	margin-top: 3px;
+	font-size: 12px;
+}
+
+.footer_bottom .location p:hover{
+	color: rgb(49, 213, 49);
+	cursor: pointer;
+}
+
+.footer_bottom .end{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer_bottom .end ul{
+	list-style: none;
+	color: #8e8e8e;
+	display: flex;
+	column-gap: 30px;
+	font-size: 12px;
+	margin-left: 60px;
+	margin-top: 20px;
+}
+
+.footer_bottom .end ul li:hover{
+	color: rgb(49, 213, 49);
+	cursor: pointer;
+}
+
+.footer_bottom .end p{
+	color: #8e8e8e;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-right: 25px;
+}
+
+/* index html ends here*/
+
+/* download html starts here*/
+
+.download{
+	background-color: #19e68c;
+	padding-bottom: 155px;
+}
+
+.download .download_content{
+	text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+	row-gap: 30px;
+}
+
+.download .download_laptop{
+	position: relative;
+	text-align: center;
+	display: block;
+	width: 136px;
+  margin-bottom: 20px;
+  margin-top: 64px;
+  
+}
+
+.download .download_laptop .laptop{
+	width: 100%;
+}
+
+.download .download_laptop .circle{
+	position: absolute;
+  width: 25%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.download .download_laptop .tick{
+	position: absolute;
+  width: 8%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.download h1{
+	font-size: 48px;
+}
+
+.download p{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.download button{
+	background-color: white;
+	border: none;
+	padding: 16px 35px;
+	border-radius: 30px;
+	font-weight: 600;
+}
+
+.download button:hover{
+	padding: 19px 37px;
+	cursor: pointer;
+}
+
+.music .music_content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	row-gap: 25px;
+	margin-top: 50px;
+	margin-bottom: 50px;									
+}
+
+.music .music_content h1{
+	font-size: 30px;
+	font-weight: 800;
+}
+
+.music.music_content p{
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.music .music_content .music_imgs{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.music .music_content .music_imgs .google{
+	width: 130px;
+}
+
+.music .music_content .music_imgs .microsoft{
+	height: 35px;
+  margin-top: 7px;
+}
+
+.account{
+	background-color: #222326;
+}
+
+.account .account_content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	row-gap: 25px;
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+
+.account .account_content .computers{
+	margin-top: 40px;
+	width: 500px;
+}
+
+.account .account_content h1{
+	color: white;
+	font-size: 35px;
+}
+
+.account .account_content ul{
+	display: flex;
+	column-gap: 25px;
+	font-weight: 600;
+}
+
+.account .account_content ul li{
+	list-style: none;
+}
+
+.account .account_content ul .no_style{
+	color: white;
+}
+
+.account .account_content ul .style{
+	color: white;
+}
+
+.account .account_content ul .style::before{
+	content: "\2022";
+	color: rgb(49, 213, 49);
+	font-weight: bold;
+	display: inline-block;
+	width: 25px;
+}
+
+.account .account_content ul .green{
+	color: rgb(49, 213, 49);
+	text-decoration: underline;
+	list-style: disc;
+}
+/* download html ends here*/
+
+/* signup html starts here*/
+
+.signup_form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background: linear-gradient(to bottom, rgb(26,26,26) 0%, rgb(10, 10, 10) 100%);
+	height: 100fr;
+}
+
+.signup_form .signup_form_content{
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+	justify-content: center;
+	background-color: black;
+	margin-top: 30px;
+}
+
+.signup_form .signup_form_content h1{
+	color: white;
+	margin-top: 40px;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.signup_form .signup_form_content .google_btn{
+	display: flex;
+	justify-content: center;
+}
+
+.signup_form .signup_form_content .google_btn button{
+	display: flex;
+	flex-direction: row;
+	padding: 10px 65px 10px 60px;
+	border: 1px solid #8e8e8e;
+	border-radius: 20px;
+	justify-content: center;
+	background-color: transparent;
+}
+
+.signup_form .signup_form_content .google_btn button .signup_btn_content{
+	margin-left: 50px;
+	display: flex;
+	column-gap: 30px;
+}
+
+.signup_form .signup_form_content .google_btn img{
+	margin-left: -80px;
+}
+
+.signup_form .signup_form_content .google_btn p{
+	margin-top: 5px;
+	font-weight: 700;
+	color: white;
+}
+
+.signup_form .signup_form_content .facebook_btn{
+	display: flex;
+	justify-content: center;
+}
+
+.signup_form .signup_form_content .facebook_btn button{
+	display: flex;
+	flex-direction: row;
+	padding: 10px 50px 10px 45px;
+	border: 1px solid #8e8e8e;
+	border-radius: 20px;
+	justify-content: center;
+	background-color: transparent;
+}
+
+.signup_form .signup_form_content .facebook_btn button .signup_btn_content{
+	margin-left: 50px;
+	display: flex;
+	column-gap: 30px;
+}
+
+.signup_form .signup_form_content .facebook_btn img{
+	margin-left: -60px;
+}
+
+.signup_form .signup_form_content .facebook_btn p{
+	margin-top: 5px;
+	font-weight: 700;
+	color: white;
+}
+
+.signup_form .signup_form_content .apple_btn{
+	display: flex;
+	justify-content: center;
+}
+
+.signup_form .signup_form_content .apple_btn button{
+	display: flex;
+	flex-direction: row;
+	padding: 10px 60px 10px 60px;
+	border: 1px solid #8e8e8e;
+	border-radius: 20px;
+	justify-content: center;
+	background-color: transparent;
+}
+
+.signup_form .signup_form_content .apple_btn button .signup_btn_content{
+	margin-left: 50px;
+	display: flex;
+	column-gap: 30px;
+}
+
+.signup_form .signup_form_content .apple_btn img{
+	margin-left: -90px;
+}
+
+.signup_form .signup_form_content .apple_btn p{
+	margin-top: 5px;
+	font-weight: 700;
+	color: white;
+}
+
+
+/* signup html ends here*/
